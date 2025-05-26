@@ -1,8 +1,8 @@
-###### A SIMPLE FOOD GAME
+## A SIMPLE FOOD GAME
 
 A fun, interactive web-based game where players match a displayed food emoji by selecting from multiple options. Correct answers stay visible with a green highlight, while incorrect choices trigger an explosion animation. Track your score, accuracy, and speed as you play!
 
-## Features
+### Features
 
 Dynamic Gameplay: Match a randomly displayed food emoji (e.g., , , , , ) by clicking the corresponding emoji from a set of options.
 
