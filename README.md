@@ -4,7 +4,7 @@ A fun, interactive web-based game where players match a displayed food emoji by 
 
 ### Features
 
-Dynamic Gameplay: Match a randomly displayed food emoji (e.g., , , , , ) by clicking the corresponding emoji from a set of options.
+Dynamic Gameplay: Match a randomly displayed food emoji by clicking the corresponding emoji from a set of options.
 
 Visual Feedback: Correct answers turn green and remain visible; incorrect answers explode and disappear.
 
