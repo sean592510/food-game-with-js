@@ -1,7 +1,9 @@
-Food Matching Game
+###### Food Matching Game
+
 A fun, interactive web-based game where players match a displayed food emoji by selecting from multiple options. Correct answers stay visible with a green highlight, while incorrect choices trigger an explosion animation. Track your score, accuracy, and speed as you play!
-Game Screenshot <!-- Replace with actual screenshot if available -->
-Features
+
+###### Features
+
 Dynamic Gameplay: Match a randomly displayed food emoji (e.g., , , , , ) by clicking the corresponding emoji from a set of options.
 
 Visual Feedback: Correct answers turn green and remain visible; incorrect answers explode and disappear.
@@ -12,7 +14,7 @@ Stylish Design: Features a vibrant gradient background and smooth animations.
 
 Responsive: Works on desktop and mobile browsers with a clean, centered layout.
 
-Technologies
+#### Technologies
 HTML5: Structure of the game interface.
 
 CSS3: Styling, including gradient background and explosion animation.
