@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1> Food Quiz </h1>
 
+<span>What's on the Grill?</span>
+<span id="grill" class="grill"></span>
+<span>Is it a hotdog?</span>
+<span>
+	<button id="yes" onclick="javascript: yes();">Yes</button>
+	<button id="no" onclick="javascript: no();">No</button>
+</span>
+<span id="results">
+	You are: 
+	<span id="result-correct" class="correct result">Correct</span>
+	<span id="result-incorrect" class="incorrect result">Incorrect</span>
+</span>
+<span id="counter">
+	Correct: <span id="counter-correct" class="correct">0</span> -
+	Incorrect: <span id="counter-incorrect" class="incorrect">0</span>
+	<br/>
+	Total: <span id="counter-total">0</span>
+	<br/>
+	Accuracy: <span id="counter-accuracy">0</span>%
+	<br/>
+	Speed: <span id="counter-speed">0</span> clicks/minute
+</span>
+      </body>
+  <script>src="script.js"</script>
+</html>
