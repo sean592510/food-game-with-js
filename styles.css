@@ -1,36 +1,80 @@
 body {
-	height: 80vh;
-	max-height: 400px;
-	margin: 0;
-	display: grid;
-	place-items: center;
-	background: yellow;
-	font-family: monospace;
-}
-span {
-	padding: 0px;
-	margin: 3px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(135deg, white, yellow);
+    min-height: 100vh;
 }
 
-.grill {
-	font-size: 5rem;
-	margin: auto;
+.game-container {
+    background: rgba(25, 25, 255, 0.2);    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
 }
+
+#grill {
+    font-size: 100px;
+    margin: 20px;
+    cursor: default;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.option {
+    font-size: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.option:hover {
+    transform: scale(1.2);
+}
+
 .correct {
-	color: green;
+    color: green;
+    font-weight: bold;
 }
-.incorrect {
-	color: red;
+
+.explode {
+    animation: explode 1s forwards;
+}
+
+@keyframes explode {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+        color: red;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
 }
 
 .result {
-	display: none
+    display: none;
+    font-size: 24px;
+    margin: 20px;
 }
 
-.current {
-	display: inline;
+.result.current {
+    display: block;
 }
-#counter {
-	text-align: center;
-  text-font: black;
+
+#result-correct.current {
+    color: green;
+}
+
+#result-incorrect.current {
+    color: red;
 }
