@@ -1,1 +1,36 @@
+body {
+	height: 80vh;
+	max-height: 400px;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background: yellow;
+	font-family: monospace;
+}
+span {
+	padding: 0px;
+	margin: 3px;
+}
 
+.grill {
+	font-size: 5rem;
+	margin: auto;
+}
+.correct {
+	color: green;
+}
+.incorrect {
+	color: red;
+}
+
+.result {
+	display: none
+}
+
+.current {
+	display: inline;
+}
+#counter {
+	text-align: center;
+  text-font: black;
+}
