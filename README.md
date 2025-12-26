@@ -14,7 +14,7 @@ Stylish Design: Features a vibrant gradient background and smooth animations.
 
 Responsive: Works on desktop and mobile browsers with a clean, centered layout.
 
-#### Technologies
+### Technologies
 HTML5: Structure of the game interface.
 
 CSS3: Styling, including gradient background and explosion animation.
